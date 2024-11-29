@@ -120,8 +120,8 @@ background-color:aqua;
   "c7 c8 c9 c10 c5"
   "c7 c8 c9 c10 c5";  
   grid-template-rows: 100px 100px 100px 100px;
-  gap: 5px; 
-  border:2px soild ; 
+  gap: 20px; 
+  padding: 10px;
 }
 .colorbox2
 { 
@@ -136,6 +136,7 @@ background-color:aqua;
   grid-template-rows: 100px 100px 100px 100px 100px;
   gap: 10px; 
   border:2px soild black; 
+  padding: 5px;
 }
 .d1
 {
