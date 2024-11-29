@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+}
+.main1{
+    background-color: bisque;
+    display: grid;
+    grid-template-areas:
+     "area1 area2  area3"
+     "area4 area5 area5"
+     "area4 area5 area5";
+     padding: 20px;
+     grid-template-rows: 100px 100px 100px;
+     gap: 20px; 
+     border-radius: 30px;   
+     width:500px;
+     position:relative;
+     
+}
+.main1 div{
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    border: 5px solid grey;
+    box-shadow: 7px 7px 7px purple;
+}
+
+
+.box1 
+{
+grid-area: area1;
+background-color: aqua;
+border: 2px dotted black;
+}
+.box2
+{
+grid-area: area2;
+background-color: green;
+}
+
+.box3
+{
+grid-area: area3;
+background-color: blue;
+}
+
+.box4 
+{
+grid-area: area4;
+background-color: pink;
+}
+
+.box5
+{
+grid-area: area5;
+background-color: red;
+}
+.structure{
+    background-color: #FFFFCC;
+    display: grid;
+    grid-template-areas:
+     "header header header"
+     "mainbox content1 content1"
+     "mainbox content2 content3"
+     "footer footer footer";
+     padding: 20px;
+     grid-template-rows: 100px 100px 100px 100px;
+     gap: 20px; 
+     border-radius: 30px;   
+}
+.structure div{
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    border: 5px solid grey;
+    box-shadow: 7px 7px 7px purple;
+}
+.body1
+{
+grid-area: header;
+background-color: aqua;
+}
+.body2
+{
+background-color: pink;
+grid-area: mainbox;
+}
+.body3
+{
+grid-area: content1;
+background-color: bisque;
+}
+.body4
+{
+grid-area: content2;
+background-color: bisque;
+}
+.body5
+{
+grid-area: content3;
+background-color: bisque;
+}
+.body6
+{
+grid-area: footer;
+background-color:aqua;
+}
+
+
+.colorbox
+{
+  display: grid;
+  grid-template-areas:
+  
+   "c1 c2 c3 c4 c5"
+  "c6 c6 c3 c10 c5"
+  "c7 c8 c9 c10 c5"
+  "c7 c8 c9 c10 c5";  
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 2px; 
+  border:2px soild ; 
+}
+.colorbox2
+{ 
+  display: grid;
+  grid-template-areas:
+  
+   "c1 c1 c2 c3 c6"
+   "c1 c1 c2 c4 c7"
+   "c5 c5 c2 c4 c8"
+   "c5 c5 c2 c4 c9"
+   "c5 c5 c2 c4 c10";
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  gap: 2px; 
+  border:2px soild black; 
+}
+.d1
+{
+  background-color:#ffff00;
+  grid-area: c1;
+}
+.d2
+{
+  background-color:#0000FF;
+  grid-area: c2;
+}
+.d3
+{
+  background-color:#009900;
+  grid-area: c3;
+}
+.d4
+{
+  background-color:#330000;
+  grid-area: c4;
+}
+.d5
+{
+  background-color:#9933CC;
+  grid-area: c5;
+}
+.d6
+{
+  background-color:#FF0099;
+  grid-area: c6;
+}
+.d7
+{
+  background-color:#FF9933;
+  grid-area: c7;
+}
+.d8
+{
+  background-color:#D0D0D0;
+  grid-area: c8;
+}
+.d9
+{
+  background-color:#ff6699;
+  grid-area: c9;
+}
+.d10
+{
+  background-color:#800000;
+  grid-area: c10;
+}
+
+
